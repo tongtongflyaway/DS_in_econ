@@ -1,0 +1,49 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS D:\OneDrive - University of Illinois - Urbana\Desktop\DS_in_econ> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS D:\OneDrive - University of Illinois - Urbana\Desktop\DS_in_econ> git add 1.txt
+PS D:\OneDrive - University of Illinois - Urbana\Desktop\DS_in_econ> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   1.txt
+
+PS D:\OneDrive - University of Illinois - Urbana\Desktop\DS_in_econ> git commit -m "done"
+[main 67d45b8] done
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 1.txt
+PS D:\OneDrive - University of Illinois - Urbana\Desktop\DS_in_econ> git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 267 bytes | 267.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/tongtongflyaway/DS_in_econ.git
+   33b2213..67d45b8  main -> main
+PS D:\OneDrive - University of Illinois - Urbana\Desktop\DS_in_econ> python
+Python 3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+KeyboardInterrupt
+>>> ^D
+  File "<stdin>", line 1
+
+    ^
+SyntaxError: invalid non-printable character U+0004
+>>> ^Z
+
+PS D:\OneDrive - University of Illinois - Urbana\Desktop\DS_in_econ> python
